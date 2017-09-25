@@ -32,7 +32,7 @@ p.then(() => {
 ```javascript
 deepEqual(1, 1)  // true
 deepEqual({ a: [1, 2, 3], b: { foo: 'bar' } }, { a: [1, 2, 3], b: { foo: 'bar' } }) // true
-deepEqual({ a: 1 b: 2 }, { a: 1, c: 2 }) // false
+deepEqual({ a: 1, b: 2 }, { a: 1, c: 2 }) // false
 ```
 
 ## 3. Async processing
